@@ -3,8 +3,6 @@
 
 using namespace std;
 
-size_t GCD (size_t m, size_t n) { return (n == 0) ? m : GCD(n, m % n); }
-
 int binarySearch(int a[], int first, int last, int X) {
 	if (first > last) return -1;
 	else {
